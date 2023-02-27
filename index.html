@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto CV</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p class="logo">Bienvenido!</p>
+            <nav>
+                <a href="#acerca-de-mi">Acerca de mi</a>
+                <a href="#competencias">Competencias</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <h1>Desarrollo Web <br>Programador</h1>
+    </section>
+
+    <section id="acerca-de-mi">
+        <div class="container">
+            <div class="img-container"></div>
+            <div class="texto">
+
+                <h2>Soy <span class="color-acento">Clarence!</span></h2>
+                <p>Hola! me llamo Clarence Hopkins, soy Web Developer. Vivo en la ciudad de Rosario, Argentina, tengo 25 años y me apasiona la programacion, la lógica y el desarrollo web especificamente.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="competencias">
+        <div class="container">
+            <h2>Mis Conocimientos</h2>
+            <div class="conocimientos">
+                <div class="carta">
+                    <h3>Programador Front-end</h3>
+                    <p>HTML 5, CSS 3, Bootstrap, Sass, Js.</p>
+                    <button onclick='aviso("Front-End")'>Portfolio</button>
+                </div>
+                <div class="carta">
+                    <h3>Programador Full-Stack</h3>
+                    <p>React Js, Node Js, Git, Git-hub, SQL.</p>
+                    <button onclick='aviso("Full-Stack")'>Portfolio</button>
+                </div>
+                <div class="carta">
+                    <h3>Programador en <br> Python</h3>
+                    <p>Desarrollo de Software, Ciencia de datos, Machine Learning.</p>
+                    <button onclick='aviso("Python")'>Portfolio</button>
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <div class="container">
+            <ul>
+                <li>    Mail:   clarencehopkins@example.com</li>
+                <li>    Telefono:   (865) 347-7258</li>
+                <li>    Direccion: 9005 W Dallas St</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="final">
+        <h2>Muchas gracias por ver!</h2>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; ClarenceHopwkis 2023</p>
+        </div>
+    </footer>
+    <script src="/index.js">
+    </script>
+</body>
+</html>
